@@ -20,3 +20,7 @@ class TestCyclicRotation(TestCase):
     def test_cyclic_rotation4(self):
         result = cyclic_rotation([3, 8, 9, 7, 6], 1)
         self.assertEqual([6, 3, 8, 9, 7], result)
+
+    def test_cyclic_rotation5(self):
+        result = cyclic_rotation([], 1)
+        self.assertEqual([], result)

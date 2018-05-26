@@ -46,5 +46,9 @@ In your solution, focus on correctness. The performance of your solution will no
 ## Referências
 
 - https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
-- https://app.codility.com/c/run/trainingTRZ3ER-D2A
-- https://app.codility.com/demo/results/trainingTRZ3ER-D2A/
+- Round 1
+    - https://app.codility.com/c/run/trainingTRZ3ER-D2A
+    - https://app.codility.com/demo/results/trainingTRZ3ER-D2A/
+- Round 2
+    - https://app.codility.com/c/run/trainingGAYUAW-9UJ
+    - https://app.codility.com/demo/results/trainingGAYUAW-9UJ/

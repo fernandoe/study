@@ -1,4 +1,6 @@
 def shift_array(array):
+    if not array:
+        return array
     last = array.pop()
     array.insert(0, last)
     return array
