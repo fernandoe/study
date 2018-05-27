@@ -1,11 +1,11 @@
 def solution(A):
-    repeated = []
-    for value in A:
-        counter = A.count(value)
-        if counter > 1:
-            if value in repeated:
-                continue
-            else:
-                repeated.append(value)
+    summary = {}
+    for number in A:
+        if number in summary:
+            summary[number] += 1
         else:
-            return value
+            summary[number] = 1
+
+    for k, v in summary.items():
+        if v == 1:
+            return k

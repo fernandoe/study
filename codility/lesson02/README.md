@@ -97,6 +97,10 @@ Complexity:
     - Round 2
       - https://app.codility.com/c/run/trainingGAYUAW-9UJ
       - https://app.codility.com/demo/results/trainingGAYUAW-9UJ/
+
+- https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
 - OddOccurrencesInArray
     - Round 1
       - https://app.codility.com/demo/results/trainingMRE43P-MXV/
+    - Round 2
+      - https://app.codility.com/demo/results/training9N9K3E-C3H/
