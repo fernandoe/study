@@ -54,3 +54,8 @@ Complexity:
 
 - expected worst-case time complexity is O(N);
 - expected worst-case space complexity is O(N) (not counting the storage required for input arguments).
+
+
+# References
+
+- https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
