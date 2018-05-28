@@ -9,3 +9,6 @@ class TestSolution(TestCase):
 
     def test_solution2(self):
         self.assertEqual(0, solution(85, 85, 30))
+
+    def test_solution3(self):
+        self.assertEqual(2, solution(1, 5, 2))
