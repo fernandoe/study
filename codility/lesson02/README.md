@@ -104,3 +104,5 @@ Complexity:
       - https://app.codility.com/demo/results/trainingMRE43P-MXV/
     - Round 2
       - https://app.codility.com/demo/results/training9N9K3E-C3H/
+    - Round 3
+      - https://app.codility.com/demo/results/trainingANK53A-F6J/

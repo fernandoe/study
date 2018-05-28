@@ -1,11 +1,14 @@
 def solution(A):
-    summary = {}
+    summary = []
     for number in A:
         if number in summary:
-            summary[number] += 1
+            summary.remove(number)
         else:
-            summary[number] = 1
+            summary.append(number)
+    return summary[0]
 
-    for k, v in summary.items():
-        if v == 1:
-            return k
+# def solution(A):
+#     result = 0
+#     for number in A:
+#         result ^= number
+#     return result
