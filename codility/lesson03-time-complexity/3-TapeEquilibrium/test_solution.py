@@ -30,21 +30,3 @@ class TestSolution(TestCase):
         print(f"expected: {expected}")
         print(f"result: {result}")
         self.assertEqual(expected, result)
-
-    def test_solution4(self):
-        test_case = [100000, 1000]
-        expected = 0
-        result = solution(test_case)
-        print(f"test_case: {test_case}")
-        print(f"expected: {expected}")
-        print(f"result: {result}")
-        self.assertEqual(expected, result)
-
-    def test_solution5(self):
-        test_case = [99999, 1000]
-        expected = 1000
-        result = solution(test_case)
-        print(f"test_case: {test_case}")
-        print(f"expected: {expected}")
-        print(f"result: {result}")
-        self.assertEqual(expected, result)

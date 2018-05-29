@@ -59,3 +59,5 @@ Complexity:
 # References
 
 - https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+- Solutions
+  1. https://app.codility.com/demo/results/trainingT72W4D-7B6/
