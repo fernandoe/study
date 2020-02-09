@@ -1,41 +1,26 @@
 # -------------------------------------------------------------------------------------------------
 
-import operator
-def persistence(n):
-    i = 0
-    while n>=10:
-        n=reduce(operator.mul,[int(x) for x in str(n)],1)
-        i+=1
-    return i
+def comp(array1, array2):
+    try:
+        return sorted([i ** 2 for i in array1]) == sorted(array2)
+    except:
+        return False
 
 # -------------------------------------------------------------------------------------------------
 
-def persistence(n):
-    nums = [int(x) for x in str(n)]
-    sist = 0
-    while len(nums) > 1:
-        newNum = reduce(lambda x, y: x * y, nums)
-        nums = [int(x) for x in str(newNum)]
-        sist = sist + 1
-    return sist
+def comp(a1, a2):
+    return None not in (a1,a2) and [i*i for i in sorted(a1)]==sorted(a2)
 
 # -------------------------------------------------------------------------------------------------
 
-def persistence(n):
-    n = str(n)
-    count = 0
-    while len(n) > 1:
-        p = 1
-        for i in n:
-            p *= int(i)
-        n = str(p)
-        count += 1
-    return count
+def comp(array1, array2):
+    if array1 and array2:
+        return sorted([x*x for x in array1]) == sorted(array2)
+    return array1 == array2 == []
 
 # -------------------------------------------------------------------------------------------------
 
-from operator import mul
-def persistence(n):
-    return 0 if n<10 else persistence(reduce(mul,[int(i) for i in str(n)],1))+1
+def comp(a1, a2):
+    return None not in (a1, a2) and all(x**2 == y for x, y in zip(sorted(a1), sorted(a2)))
 
 # -------------------------------------------------------------------------------------------------
