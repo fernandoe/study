@@ -26,7 +26,7 @@ if __name__== "__main__":
     test.assert_equals(persistence(25), 2)
     test.assert_equals(persistence(999), 4)
 
-    # Test Case
+    # Test Cases
     from functools import reduce
     from random import randint
     #-----------------

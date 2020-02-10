@@ -36,7 +36,7 @@ if __name__== "__main__":
     test.assert_equals(validate_pin("123456"),True, "Wrong output for '123456'")
     test.assert_equals(validate_pin("090909"),True, "Wrong output for '090909'")
     
-    # test Case
+    # Test Cases
     test.describe("validate_pin")
 
     test.it("should return False for pins with length other than 4 or 6")

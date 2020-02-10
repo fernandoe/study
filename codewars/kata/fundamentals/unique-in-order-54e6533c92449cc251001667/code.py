@@ -15,8 +15,11 @@ def unique_in_order(iterable):
 
 if __name__== "__main__":
     import codewars_test as test
+
+    # Sample tests
     test.assert_equals(unique_in_order('AAAABBBCCDAABBB'), ['A','B','C','D','A','B'])
 
+    # Test Cases
     test.describe("lets test it")
     test.it("should work with empty array")
     test.assert_equals(unique_in_order(''),[])

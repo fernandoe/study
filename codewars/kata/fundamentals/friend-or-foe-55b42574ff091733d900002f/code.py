@@ -8,11 +8,13 @@ def friend(x):
 
 if __name__== "__main__":
     import codewars_test as test
+
+    # Sample Tests
     test.assert_equals(friend(["Ryan", "Kieran", "Mark",]), ["Ryan", "Mark"])
     test.assert_equals(friend(['']), [])
     test.assert_equals(friend(['Ryan']), ['Ryan'])
 
-    # From the plataform
+    # Test Cases
     test.describe("Fixed Tests")
 
     test.assert_equals(friend(["Ryan", "Kieran", "Mark",]), ["Ryan", "Mark"])
