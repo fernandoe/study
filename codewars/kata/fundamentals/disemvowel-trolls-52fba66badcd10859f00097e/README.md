@@ -1,4 +1,8 @@
-# Instructions
+# Disemvowel Trolls
+
+<https://www.codewars.com/kata/52fba66badcd10859f00097e/>
+
+## Instructions
 
 Trolls are attacking your comment section!
 

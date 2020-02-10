@@ -1,4 +1,8 @@
-# Instructions
+# Friend or Foe
+
+<https://www.codewars.com/kata/55b42574ff091733d900002f/>
+
+## Instructions
 
 Make a program that filters a list of strings and returns a list with only your friends name in it.
 

@@ -1,4 +1,8 @@
-# Instructions
+# Are they the "same"
+
+<https://www.codewars.com/kata/550498447451fbbd7600041c/>
+
+## Instructions
 
 Given two arrays `a` and `b` write a function `comp(a, b)` (`compSame(a, b)` in Clojure) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in `b` are the elements in `a` squared, regardless of the order.
 
