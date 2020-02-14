@@ -1,8 +1,11 @@
 # 80
 
 class Potion:
+
     def __init__(self, color, volume):
-        pass
+        self.color = color
+        self.volume = volume
     
     def mix(self, other):
-        pass
+        self.volume += other.volume
+        return self
