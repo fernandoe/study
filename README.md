@@ -1,4 +1,4 @@
-# study
+# Study
 
 ## Services
 
@@ -6,10 +6,6 @@
 - LeetCode: https://leetcode.com
 
 
-## Rails
+## References
 
-```shell
-
-bundle install
-
-```
+- https://github.com/ombharatiya/FAANG-Coding-Interview-Questions
